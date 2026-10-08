@@ -1,0 +1,30 @@
+# Secrets / local configuration
+.env
+.env.*
+*.secret
+*.secrets
+appsettings.*.json
+local.properties
+
+# SQL Server artifacts
+*.bak
+*.trn
+*.mdf
+*.ndf
+*.ldf
+
+# IDE / OS
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Temporary / exports
+temp/
+tmp/
+out/
+exports/
+*.log
